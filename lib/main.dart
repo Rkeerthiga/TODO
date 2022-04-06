@@ -12,7 +12,7 @@ Future main() async {
 }
 
 class MyApp extends StatelessWidget {
-  static final String title = 'Todo App With Firebase';
+  static final String title = 'What Todo';
 
   @override
   Widget build(BuildContext context) => ChangeNotifierProvider(
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: title,
           theme: ThemeData(
-            primarySwatch: Colors.pink,
+            primarySwatch: Colors.blue,
             scaffoldBackgroundColor: Color(0xFFf6f5ee),
           ),
           home: HomePage(),
